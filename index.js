@@ -15,7 +15,7 @@ document.getElementById("9-button").addEventListener("click", () => { display.va
 document.getElementById("0-button").addEventListener("click", () => { display.value += "0" })
 
 // operator buttons
-document.getElementById("addition-button").addEventListener("click", () => { display.value += "*" })
+document.getElementById("addition-button").addEventListener("click", () => { display.value += "+" })
 document.getElementById("subtraction-button").addEventListener("click", () => { display.value += "-" })
 document.getElementById("multiplication-button").addEventListener("click", () => { display.value += "*" })
 document.getElementById("division-button").addEventListener("click", () => { display.value += "/" })
